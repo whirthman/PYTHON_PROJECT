@@ -1,8 +1,5 @@
-# Recieving input from user
-# Write a program that logs and greet user by recieving username from input
-name = input('What is your name:')
-print("Good morning " + name)
-
-# Write a program that logs the age of user
-age = input("What is your age:")
-print("You are", age, " years old")
+# String slicing in Python
+name = input("Enter your firs name ").upper()
+contact = input("Enter your contact: ")
+digit_slice = contact[0:5]
+print("Your name is ", name, " and your first 4 digit is ", digit_slice)
