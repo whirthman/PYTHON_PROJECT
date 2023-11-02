@@ -1,9 +1,6 @@
-# Format  Method
-# Returns the index of a string if its finds and returns -1 if doesnt exist
+# Index  Method
+# Find the index of char in strings, its finds the index of the starting word form the char in the string
 
-txt = "For only {price:.2f} dollars!"
-x = txt.format(price = 200)
+txt = "Youre welcome to our school"
+x = txt.index("welcome")
 print(x)
-
-txt2 = "My name is {name} i am {age} old"
-print(txt2.format(name="Jonah", age="25"))
