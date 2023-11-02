@@ -1,6 +1,6 @@
-# isdecimal method  Method
-# Returns true if all chars are is decunal
+# isdigit method  Method
+# Returns true if all chars are digit, exponents are also considerd digit
 
-txt = "0595241590"
-x = txt.isdecimal()
+txt = "2023"
+x = txt.isdigit()
 print(x)
