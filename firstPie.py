@@ -1,6 +1,6 @@
-# isalnum  Method
-# Returns true if all chars are alphanumeric
+# isalpha  Method
+# Returns true if all chars are alphabets
 
-txt = "He came to class at 12:00AM"
-x = txt.isalnum()
+txt = "John"
+x = txt.isalpha()
 print(x)
