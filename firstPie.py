@@ -1,6 +1,6 @@
-# Index  Method
-# Find the index of char in strings, its finds the index of the starting word form the char in the string
+# isalnum  Method
+# Returns true if all chars are alphanumeric
 
-txt = "Youre welcome to our school"
-x = txt.index("welcome")
+txt = "He came to class at 12:00AM"
+x = txt.isalnum()
 print(x)
