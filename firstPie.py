@@ -1,6 +1,6 @@
-# isNumeric method  
-# Returns true if all  string are numeric
+# isPrintable method  
+# Returns true if all characters are printable
 
-txt = "487474"
-x = txt.isnumeric()
+txt = "Hello! Are you #1?"
+x = txt.isprintable()
 print(x)
