@@ -1,6 +1,6 @@
-# isdigit method  Method
-# Returns true if all chars are digit, exponents are also considerd digit
+# isIdentifier method  
+# Returns true string is identifier
 
-txt = "2023"
-x = txt.isdigit()
+txt = "Name"
+x = txt.isidentifier()
 print(x)
