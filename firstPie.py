@@ -1,6 +1,6 @@
-# isSpace method  
-# Returns true if all characters are whitespace
+# isTitle method  
+# Returns true if all sting follows Title Case
 
-txt = "     "
-x = txt.isspace()
+txt = " Welcome To Your New Space"
+x = txt.istitle()
 print(x)
