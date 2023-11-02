@@ -1,6 +1,6 @@
-# isascii  Method
-# Returns true if all chars are is ascii
+# isdecimal method  Method
+# Returns true if all chars are is decunal
 
-txt = "John 3484s $@!"
-x = txt.isascii()
+txt = "0595241590"
+x = txt.isdecimal()
 print(x)
