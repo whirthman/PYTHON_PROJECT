@@ -1,6 +1,6 @@
-# isLower method  
-# Returns true if all  string is lower
+# isNumeric method  
+# Returns true if all  string are numeric
 
-txt = "wilson"
-x = txt.islower()
+txt = "487474"
+x = txt.isnumeric()
 print(x)
