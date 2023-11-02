@@ -1,6 +1,5 @@
-# isTitle method  
-# Returns true if all sting follows Title Case
-
-txt = " Welcome To Your New Space"
-x = txt.istitle()
+# isUpper method  
+# Returns true if chars are upper case
+txt = "WELCOME"
+x = txt.isupper()
 print(x)
