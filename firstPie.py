@@ -1,5 +1,6 @@
-# Center Method
-# Centers a string in a middle of specifide number of characters
+# Count Method
+# Count number of times a character value appears in string
 
-txt = "Banana"
-print(txt.center(20,"O"))
+txt = "I love apples, apple are my favorite fruit"
+x = txt.count("apple")
+print(x)
