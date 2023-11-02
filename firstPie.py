@@ -1,5 +1,5 @@
-# Casefold Method
-# Returns a string where all characters are lower case
+# Center Method
+# Centers a string in a middle of specifide number of characters
 
-txt = "hello And Welcome to My World"
-print(txt.capitalize())
+txt = "Banana"
+print(txt.center(20,"O"))
