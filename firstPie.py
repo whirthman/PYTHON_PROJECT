@@ -1,6 +1,6 @@
-# isIdentifier method  
-# Returns true string is identifier
+# isLower method  
+# Returns true if all  string is lower
 
-txt = "Name"
-x = txt.isidentifier()
+txt = "wilson"
+x = txt.islower()
 print(x)
