@@ -1,5 +1,7 @@
-# ljust & rjust methods
-# returns a left or right justified version of a string
-text = "John de Baptist is here"
-x = text.ljust(20, "O")
+# Partition Method 
+
+txt = "Malta is a smallest Island with less than 1, Malta is great for tour events"
+
+x = txt.partition("Malta")
+
 print(x)
