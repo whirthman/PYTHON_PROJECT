@@ -1,8 +1,8 @@
-# title Method
-# convert text to tile case
+# upper Method
+# convert text to upper case
 
 txt = "Welcome to my world"
 
-x = txt.title()
+x = txt.upper()
 
 print(x)
