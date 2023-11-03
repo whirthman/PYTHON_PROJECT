@@ -1,6 +1,5 @@
-# join method  
-# Joins list or tuples into a string using string seperator
-myDict = ("John", "Peter", "Vicky")
-seperator = "..."
-x = seperator.join(myDict)
+# ljust & rjust methods
+# returns a left or right justified version of a string
+text = "John de Baptist is here"
+x = text.ljust(20, "O")
 print(x)
