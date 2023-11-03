@@ -1,6 +1,9 @@
-# Replace Method 
+# rfind Method 
 
-txt = "I like bananas becausse is prevent constipation."
+# Where in the text is the last occurrence of the string "casa"?:
 
-x = txt.replace("bananas", "apples")
+txt = "Mi casa, su casa."
+
+x = txt.rfind("casa")
+
 print(x)
