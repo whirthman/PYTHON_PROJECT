@@ -1,8 +1,11 @@
 # upper Method
 # convert text to upper case
 
-txt = "Welcome to my world"
+# zfill mehtod
+# he zfill() method adds zeros (0) at the beginning of the string, until it reaches the specified length.
 
-x = txt.upper()
+txt = "Jonah"
+
+x = txt.zfill(10)
 
 print(x)
