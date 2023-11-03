@@ -1,9 +1,8 @@
-# swapcase Method
-# swap cases and lower become upper and vice versa
+# title Method
+# convert text to tile case
 
+txt = "Welcome to my world"
 
-txt = "Hello My Name Is PETER"
-
-x = txt.swapcase()
+x = txt.title()
 
 print(x)
