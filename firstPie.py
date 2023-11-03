@@ -1,17 +1,11 @@
-#String Methods
+# Numbers in Python
 
-# Enocode
-# txt = "My name is Ståle"
+# Integers
 
-# print(txt.encode(encoding="ascii",errors="backslashreplace"))
-# print(txt.encode(encoding="ascii",errors="ignore"))
-# print(txt.encode(encoding="ascii",errors="namereplace"))
-# print(txt.encode(encoding="ascii",errors="replace"))
-# print(txt.encode(encoding="ascii",errors="xmlcharrefreplace"))
+x = 1
+y = 35656222554887711
+z = -3255522
 
-# Center
-txt = "banana"
-
-x = txt.center(30, "O")
-
-print(x)
+print(type(x))
+print(type(y))
+print(type(z))
