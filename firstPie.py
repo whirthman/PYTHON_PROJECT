@@ -1,7 +1,6 @@
-# Partition Method 
+# Replace Method 
 
-txt = "Malta is a smallest Island with less than 1, Malta is great for tour events"
+txt = "I like bananas becausse is prevent constipation."
 
-x = txt.partition("Malta")
-
+x = txt.replace("bananas", "apples")
 print(x)
