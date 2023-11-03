@@ -1,9 +1,6 @@
-# rindex Method 
+# Split Method
+txt = "Welcome to the Jungle"
 
-# Where in the text is the last occurrence of the string "casa"?:
-
-txt = "Mi casa, su casa."
-
-x = txt.rindex("casa")
+x = txt.split()
 
 print(x)
