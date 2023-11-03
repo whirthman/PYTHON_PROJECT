@@ -1,9 +1,9 @@
-# strip Method
-# trims whitespaces form the begining and the end of string
+# swapcase Method
+# swap cases and lower become upper and vice versa
 
 
-txt = "     banana     "
+txt = "Hello My Name Is PETER"
 
-x = txt.strip()
+x = txt.swapcase()
 
 print(x)
