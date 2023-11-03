@@ -1,6 +1,8 @@
-# Split Method
-txt = "Welcome to the Jungle"
+# Splitlines Method
+# Split string into objects using linebreaks
 
-x = txt.split()
+txt = "Thank you for the music\nWelcome to the jungle"
+
+x = txt.splitlines()
 
 print(x)
