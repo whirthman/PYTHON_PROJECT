@@ -1,9 +1,9 @@
-# startwith Method
-# returns true if string starts with specified char
+# strip Method
+# trims whitespaces form the begining and the end of string
 
 
-txt = "Thank you for the music\nWelcome to the jungle"
+txt = "     banana     "
 
-x = txt.startswith("Thank")
+x = txt.strip()
 
 print(x)
