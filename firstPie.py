@@ -1,7 +1,5 @@
-# Numbers in Python
+# Booleans
 
-# Random Numbers in pythond
-
-import random
-
-print(random.randrange(0,10))
+print(10 > 9)
+print(10 == 9)
+print(10 < 9)
