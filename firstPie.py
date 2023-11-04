@@ -1,11 +1,18 @@
 # Numbers in Python
 
-# Complex Numbers
+# Type Conversion
 
-x = 3+5j
-y = 5j
-z = -5j
+x = 1    # int
+y = 2.8  # float
+# z = 1j   # complex
 
-print(type(x))
-print(type(y))
-print(type(z))
+# a = int(z)
+b = float(x)
+c = complex(y)
+
+# print(a)
+# print("Type of a: ", type(a))
+print(b)
+print("Type of b: ", type(b))
+print(c)
+print("Type of ", type(c))
