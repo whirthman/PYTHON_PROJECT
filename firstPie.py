@@ -1,24 +1,33 @@
-#  Arthmetric Operators
-x = 2
-y = 3
+#  Arthmetric Operators Program
+
+x = int(input("Enter the first value (x)"))
+y = int(input("Enter the second value (y)"))
+z = input("Input your operator")
 
 # Additon
-print("Additon: " + str(x)+"+"+str(y) + "=", x+y)
+if(z == "+"):
+    print("Additon: " + str(x)+"+"+str(y) + "=", x+y)
 
 # Substraction
-print("Substraction: " + str(x)+"-"+str(y) + "=", x-y)
+elif(z == "-"):
+    print("Substraction: " + str(x)+"-"+str(y) + "=", x-y)
 
 # Multiplication
-print("Multiplication: " + str(x)+"*"+ str(y) + "=", x*y)
+elif(z == "*"):
+    print("Multiplication: " + str(x)+"*"+ str(y) + "=", x*y)
 
 # Division
-print("Division: " + str(x) + "/" + str(y) + "=", x/y )
+elif(z == "/"):
+    print("Division: " + str(x) + "/" + str(y) + "=", x/y )
 
 # Modulus
-print("Modulus :" + str(x) + "%" + str(y) + "=", x%y)
+elif(z == "%"):
+    print("Modulus :" + str(x) + "%" + str(y) + "=", x%y)
 
 # Exponentiation
-print("Exponentiation :" + str(x) + "**" + str(y) + "=", x**y)
+elif(z == "**"):
+    print("Exponentiation :" + str(x) + "**" + str(y) + "=", x**y)
 
 # Floor Division
-print("Floor Division: " + str(x) + "//" + str(y) + "=", x//y )
+elif(z == "//"):
+    print("Floor Division: " + str(x) + "//" + str(y) + "=", x//y )
