@@ -13,3 +13,18 @@ thislist = ["apple", "banana", "cherry"]
 thistuple = ("kiwi", "orange")
 thislist.extend(thistuple)
 print(thislist)
+
+# Remove Method
+thislist.remove("kiwi")
+print(thislist)
+
+# Pop Method
+thislist.pop()
+print(thislist)
+
+thislist.pop(1)
+print(thislist)
+
+# Clear Method
+thislist.clear()
+print(thislist)
