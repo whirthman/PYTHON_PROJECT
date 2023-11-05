@@ -1,14 +1,11 @@
-#  Arthmetric Operators Program
+#  Python Comparison Operators
 
 x = 5
-x += 3
-x -= 3
-x *=3
-x //= 3
-x **= 3
-x &= 3
-x %= 3
-x ^= 3
-x >>= 5
-x <<= 100
-print(x)
+y = 3
+
+print(x==y)
+print(x!=y)
+print(x>y)
+print(x<y)
+print(x>=y)
+print(x<=y)
