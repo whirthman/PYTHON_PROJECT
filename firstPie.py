@@ -1,44 +1,15 @@
-# LIST
-myList = ["Banana", "Cherry", "Apple","Mango"]
+# List
+west_africa = ["Ghana","Nigeria","Ivory Coast","Togo","Senegal","Burkina Faso","Liberia"]
+east_africa = ["Kenya", "Ethopia", "Uganda", "Tanzania"]
+west_africa.insert(6,"Seira Leone")
+print(west_africa)
 
-# Accesin Items
-print(myList[0])
+# Extend
+west_africa.extend(east_africa)
+print(west_africa)
 
-# Accesing Last Item
-print(myList[-1])
-
-# Accesing Last_but_one Item
-print(myList[-2])
-
-# Accesing Last_but_two item
-print(myList[-3])
-
-# Range of Indexes
-print(myList[1:-1])
-
-# Ranging to the end
-thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
-print(thislist[:4])
-
-# Rangin Negative Indexex
-print(thislist[-4 : -1])
-
-# Checking if Item Exist
-if("banana" in thislist):
-    print("Banana is here")
-
-# Changing List Items
-thislist[1] = "Blackcurant"
-print(thislist)
-
-# Change Range of Items Value
-thislist[1:3] = ["Blackburn", "Rovers"]
-print(thislist)
-
-# Insert Method
-thislist.insert(3,"Water Melon")
-print(thislist)
-
-# Append Method
-thislist.append("Orange")
+# Add any iterable using extend method
+thislist = ["apple", "banana", "cherry"]
+thistuple = ("kiwi", "orange")
+thislist.extend(thistuple)
 print(thislist)
