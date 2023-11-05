@@ -1,7 +1,11 @@
-#  Python Identity Operators
-
+# Python Bitwise Operator
 x = 3
 y = 5
 
-print(x is y)
-print(x is not y)
+print (x & y)
+print( x | y)
+print(x ^ y)
+print(~x)
+print(~y)
+print(x<<2)
+print(x>>5)
