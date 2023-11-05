@@ -1,13 +1,14 @@
 # LIST
-myList = ["Banana", "Cherry", "Apple"]
-print(myList)
+myList = ["Banana", "Cherry", "Apple","Mango"]
 
-# Finding the Lenght
-print(len(myList))
+# Accesin Items
+print(myList[0])
 
-# Chceking the type
-print(type(myList))
+# Accesing Last Item
+print(myList[-1])
 
-# Creatin list with constructor
-thisItems = list(("John", "Jonah", "Jeremiah"))
-print(thisItems)
+# Accesing Last_but_one Item
+print(myList[-2])
+
+# Accesing Last_but_two item
+print(myList[-3])
