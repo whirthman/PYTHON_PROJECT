@@ -15,3 +15,6 @@ print(myList[-3])
 
 # Range of Indexes
 print(myList[1:-1])
+
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+print(thislist[:4])
