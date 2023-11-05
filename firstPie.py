@@ -20,3 +20,10 @@ print(myList[1:-1])
 thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 print(thislist[:4])
 
+# Rangin Negative Indexex
+print(thislist[-4 : -1])
+
+# Checking if Item Exist
+if("banana" in thislist):
+    print("Banana is here")
+
