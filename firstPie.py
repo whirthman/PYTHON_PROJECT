@@ -1,30 +1,23 @@
 # List
 west_africa = ["Ghana","Nigeria","Ivory Coast","Togo","Senegal","Burkina Faso","Liberia"]
 east_africa = ["Kenya", "Ethopia", "Uganda", "Tanzania"]
-west_africa.insert(6,"Seira Leone")
-print(west_africa)
 
-# Extend
-west_africa.extend(east_africa)
-print(west_africa)
+# Using the For Loop
 
-# Add any iterable using extend method
-thislist = ["apple", "banana", "cherry"]
-thistuple = ("kiwi", "orange")
-thislist.extend(thistuple)
-print(thislist)
+for country in west_africa:
+    print(country)
 
-# Remove Method
-thislist.remove("kiwi")
-print(thislist)
+for i in range(len(west_africa)):
+    print(west_africa[i])
 
-# Pop Method
-thislist.pop()
-print(thislist)
 
-thislist.pop(1)
-print(thislist)
+#  Using the While Loop
+i = 0
+while i < len(east_africa):
+    print(east_africa[i])
+    i += 1
 
-# Clear Method
-thislist.clear()
-print(thislist)
+print(range(len(east_africa)))
+
+# Looping using Comprehension
+[print(x) for x in east_africa]
