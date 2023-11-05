@@ -12,3 +12,6 @@ print(myList[-2])
 
 # Accesing Last_but_two item
 print(myList[-3])
+
+# Range of Indexes
+print(myList[1:-1])
