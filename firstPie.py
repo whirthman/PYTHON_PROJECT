@@ -38,3 +38,7 @@ print(thislist)
 # Insert Method
 thislist.insert(3,"Water Melon")
 print(thislist)
+
+# Append Method
+thislist.append("Orange")
+print(thislist)
