@@ -27,3 +27,14 @@ print(thislist[-4 : -1])
 if("banana" in thislist):
     print("Banana is here")
 
+# Changing List Items
+thislist[1] = "Blackcurant"
+print(thislist)
+
+# Change Range of Items Value
+thislist[1:3] = ["Blackburn", "Rovers"]
+print(thislist)
+
+# Insert Method
+thislist.insert(3,"Water Melon")
+print(thislist)
