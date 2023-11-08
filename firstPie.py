@@ -2,31 +2,28 @@
 west_africa = ["Ghana","Nigeria","Ivory Coast","Togo","Senegal","Burkina Faso","Liberia"]
 east_africa = ["Kenya", "Ethopia", "Uganda", "Tanzania"]
 
-# # Using the For Loop
+# Sort List
+west_africa.sort()
+print(west_africa)
 
-# for country in west_africa:
-#     print(country)
+# Sorting in Descending Order Using Reverse
+west_africa.sort(reverse=True)
+print(west_africa)
 
-# for i in range(len(west_africa)):
-#     print(west_africa[i])
+# Sorting using keys with function
+def myFun(n):
+    return abs(n-50)
 
+myInt = [100, 80, 200, 60, 50, 30, 70, 115]
+myInt.sort(key=myFun)
+print(myInt)
 
-# #  Using the While Loop
-# i = 0
-# while i < len(east_africa):
-#     print(east_africa[i])
-#     i += 1
+# Overcoming case insensitve unexpexted behaviours using key func
+fruits = ["banana", "Orange", "Kiwi", "cherry"]
 
-# print(range(len(east_africa)))
+fruits.sort(key=str.lower)
+print(fruits)
 
-# # Looping using Comprehension
-# [print(x) for x in east_africa]
-
-
-# List Comprehension
-new_country = []
-for country in west_africa:
-    if("G" in country):
-        new_country.append(country)
-
-print(new_country)
+# Reversing the Order
+fruits.reverse()
+print(fruits)
