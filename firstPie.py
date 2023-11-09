@@ -14,3 +14,11 @@ print(countries)
 eu_count = ["Spain", "Portugal", "France"]
 countries.update(eu_count)
 print(countries)
+
+# Removing Items from Sets
+countries.remove("Italy")
+print(countries)
+
+# Using the Discard Method
+countries.discard("France")
+print(countries)
