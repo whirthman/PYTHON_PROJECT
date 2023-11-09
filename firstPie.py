@@ -1,20 +1,17 @@
-# Tuple
-west_africa = ("Ghana","Nigeria","Cote Divoier","Togo","Senegal")
-east_africa = ("Kenya", "Ethopia", "Tanzania","Uganda","South Sudan")
+# Set
+countries = {"Malta", "Ghana", "Italy", "United Kingdom"}
+print(countries)
 
-# Joining Tuples
-africa = west_africa + east_africa
-print(africa)
+# True and 1 considered same value
+numb = {True, 4, 5, 12, 1, 0, True,}
+print(numb)
 
-# Multiply Tuples
-nations = africa * 10
-sort_tup = list(nations)
-sort_tup.sort()
-nations = tuple(sort_tup)
-print(nations)
+# Lenght of Set
+print(len(countries))
 
-# Count Method
-print(nations.count("Ghana"))
+# Type of set
+print(type(countries))
 
-# Index Method
-print(nations.index("Uganda"))
+#  Creating sets with Constructor
+fruits = set({"Apple", "Banana", "Mango"})
+print(fruits)
