@@ -45,3 +45,12 @@ print(intersect)
 # Keeping both but not duplicate / using symetric_diffrecne method
 sym_diff = fruits.symmetric_difference(tech)
 print(sym_diff)
+
+# Findig only Sets Members with diffrence
+# Fruit Only
+diff_fruits = fruits.difference(tech)
+print(diff_fruits)
+
+# Tech Only
+diff_tech = tech.difference(fruits)
+print(diff_tech)
