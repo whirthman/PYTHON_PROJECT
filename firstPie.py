@@ -22,3 +22,26 @@ print(countries)
 # Using the Discard Method
 countries.discard("France")
 print(countries)
+
+# Looping throug a Sets
+for country in countries:
+    print(country)
+
+africa = {"Nigeria", "Kenya","Uganda","Senegal","Ghana"}
+nations = africa.union(countries)
+print(nations)
+
+# Using the Update Method
+middle_east = {"Turkey", "Israel", "Saudi Arabia", "UAE"}
+nations.update(middle_east)
+print(nations)
+
+# Keeping only the Duplicate / Intersectio of Sets
+fruits = {"apple", "mango", "banana"}
+tech = {"microsoft", "google", "apple"}
+intersect = fruits.intersection(tech)
+print(intersect)
+
+# Keeping both but not duplicate / using symetric_diffrecne method
+sym_diff = fruits.symmetric_difference(tech)
+print(sym_diff)
