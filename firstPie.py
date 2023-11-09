@@ -12,17 +12,20 @@ print(type(west_africa))
 east_africa = tuple(("Kenya","Uganda","Ethopia","Tanzania"))
 print(east_africa)
 
-# Accesing the Tuple
-print(west_africa[0])
+# Changing Tuples
+mod_east_afica = list(east_africa)
+mod_east_afica[3] = "South Sudan"
+east_africa = tuple(mod_east_afica)
+print(east_africa)
 
-# Negative Indexing
-print(west_africa[-1])
+# Adding Items to Tuples
+cov_east_africa = list(east_africa)
+cov_east_africa.append("Tanzania")
+east_africa = tuple(cov_east_africa)
+print(east_africa)
 
-# Range of Index
-print(west_africa[2:4])
-
-# Checking if Item Exist
-if "Ghana" in west_africa:
-    print("Yes Ghana was there")
-else:
-    print("Does not exist on map")
+# Removing Items
+rev_east_africa = list(east_africa)
+rev_east_africa.remove("South Sudan")
+east_africa = tuple(rev_east_africa)
+print(east_africa)
