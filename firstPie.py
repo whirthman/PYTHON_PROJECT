@@ -12,3 +12,9 @@ sort_tup = list(nations)
 sort_tup.sort()
 nations = tuple(sort_tup)
 print(nations)
+
+# Count Method
+print(nations.count("Ghana"))
+
+# Index Method
+print(nations.index("Uganda"))
