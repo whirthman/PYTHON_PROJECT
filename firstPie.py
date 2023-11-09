@@ -20,3 +20,9 @@ print(west_africa[-1])
 
 # Range of Index
 print(west_africa[2:4])
+
+# Checking if Item Exist
+if "Ghana" in west_africa:
+    print("Yes Ghana was there")
+else:
+    print("Does not exist on map")
